@@ -1,5 +1,5 @@
 {
-    "name": "PayKickstart-LLC/paypal-merchant-sdk-php",
+    "name": "paykickstart-llc/paypal-merchant-sdk-php",
     "version": "1.0.0",
     "description": "PayPal Merchant SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
@@ -24,5 +24,11 @@
             "PayPal\\EnhancedDataTypes": "lib/",
             "PayPal\\PayPalAPI": "lib/"
         }
-    } 
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/PayKickstart-LLC/paypal-sdk-core-php",
+            "type": "git"
+        }
+    ]
 }
